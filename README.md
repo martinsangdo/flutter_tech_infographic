@@ -1,1 +1,1 @@
-# flutter_tech_infographic
+# Tech infographic
