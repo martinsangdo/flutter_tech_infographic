@@ -1,4 +1,4 @@
-import 'package:ai_travel_planner/constants.dart';
+import 'package:techfact_infographic/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';

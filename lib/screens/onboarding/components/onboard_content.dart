@@ -1,4 +1,4 @@
-import 'package:ai_travel_planner/components/percentage_display.dart';
+import 'package:techfact_infographic/components/percentage_display.dart';
 import 'package:flutter/material.dart';
 
 class OnboardContent extends StatefulWidget {

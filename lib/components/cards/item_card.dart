@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:ai_travel_planner/screens/details/attractions_details_screen.dart';
-import 'package:ai_travel_planner/screens/photo_gallery_fullscreen.dart';
+import 'package:techfact_infographic/screens/details/attractions_details_screen.dart';
+import 'package:techfact_infographic/screens/photo_gallery_fullscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import '../../constants.dart';

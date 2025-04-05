@@ -1,7 +1,7 @@
-import 'package:ai_travel_planner/screens/addToOrder/planner_form.dart';
-import 'package:ai_travel_planner/screens/ai_screen.dart';
-import 'package:ai_travel_planner/screens/details/attractions_details_screen.dart';
-import 'package:ai_travel_planner/screens/details/city_details_screen.dart';
+import 'package:techfact_infographic/screens/addToOrder/planner_form.dart';
+import 'package:techfact_infographic/screens/ai_screen.dart';
+import 'package:techfact_infographic/screens/details/attractions_details_screen.dart';
+import 'package:techfact_infographic/screens/details/city_details_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

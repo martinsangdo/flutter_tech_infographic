@@ -1,10 +1,9 @@
 import 'dart:convert';
 
-import 'package:ai_travel_planner/db/city_model.dart';
-import 'package:ai_travel_planner/db/database_helper.dart';
-import 'package:ai_travel_planner/db/metadata_model.dart';
-import 'package:ai_travel_planner/entry_point.dart';
-import 'package:ai_travel_planner/screens/home/home_screen.dart';
+import 'package:techfact_infographic/db/database_helper.dart';
+import 'package:techfact_infographic/db/metadata_model.dart';
+import 'package:techfact_infographic/entry_point.dart';
+import 'package:techfact_infographic/screens/home/home_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../constants.dart';

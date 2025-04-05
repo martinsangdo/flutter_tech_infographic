@@ -1,8 +1,7 @@
-import 'package:ai_travel_planner/components/cards/big/info_big_card.dart';
-import 'package:ai_travel_planner/constants.dart';
-import 'package:ai_travel_planner/db/city_model.dart';
-import 'package:ai_travel_planner/db/database_helper.dart';
-import 'package:ai_travel_planner/screens/details/city_details_screen.dart';
+import 'package:techfact_infographic/components/cards/big/info_big_card.dart';
+import 'package:techfact_infographic/constants.dart';
+import 'package:techfact_infographic/db/database_helper.dart';
+import 'package:techfact_infographic/screens/details/city_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:number_paginator/number_paginator.dart';
 

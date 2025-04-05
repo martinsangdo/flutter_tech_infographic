@@ -1,1 +1,1 @@
-# Tech infographic
+# TechFact infographic

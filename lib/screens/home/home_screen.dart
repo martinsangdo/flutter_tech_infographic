@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:ai_travel_planner/components/percentage_display.dart';
-import 'package:ai_travel_planner/db/database_helper.dart';
+import 'package:techfact_infographic/components/percentage_display.dart';
+import 'package:techfact_infographic/db/database_helper.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/cards/big/info_big_card.dart';

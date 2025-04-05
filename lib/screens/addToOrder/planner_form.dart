@@ -1,8 +1,8 @@
-import 'package:ai_travel_planner/functions.dart';
-import 'package:ai_travel_planner/screens/addToOrder/components/square_checkedbox.dart';
-import 'package:ai_travel_planner/screens/addToOrder/date_widget.dart';
-import 'package:ai_travel_planner/screens/details/city_details_screen.dart';
-import 'package:ai_travel_planner/screens/search/search_screen.dart';
+import 'package:techfact_infographic/functions.dart';
+import 'package:techfact_infographic/screens/addToOrder/components/square_checkedbox.dart';
+import 'package:techfact_infographic/screens/addToOrder/date_widget.dart';
+import 'package:techfact_infographic/screens/details/city_details_screen.dart';
+import 'package:techfact_infographic/screens/search/search_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';

@@ -1,4 +1,4 @@
-package com.xufagroup.ai_travel_planner
+package com.xufagroup.techfact_infographic
 
 import io.flutter.embedding.android.FlutterActivity
 

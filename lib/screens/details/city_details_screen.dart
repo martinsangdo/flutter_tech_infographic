@@ -1,9 +1,8 @@
-import 'package:ai_travel_planner/components/expandable_widget.dart';
-import 'package:ai_travel_planner/components/percentage_display.dart';
-import 'package:ai_travel_planner/db/city_model.dart';
-import 'package:ai_travel_planner/db/database_helper.dart';
-import 'package:ai_travel_planner/functions.dart';
-import 'package:ai_travel_planner/screens/orderDetails/components/price_row.dart';
+import 'package:techfact_infographic/components/expandable_widget.dart';
+import 'package:techfact_infographic/components/percentage_display.dart';
+import 'package:techfact_infographic/db/database_helper.dart';
+import 'package:techfact_infographic/functions.dart';
+import 'package:techfact_infographic/screens/orderDetails/components/price_row.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'dart:convert';

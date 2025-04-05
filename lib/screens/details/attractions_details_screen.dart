@@ -1,5 +1,5 @@
-import 'package:ai_travel_planner/functions.dart';
-import 'package:ai_travel_planner/screens/details/components/attraction_tab_items.dart';
+import 'package:techfact_infographic/functions.dart';
+import 'package:techfact_infographic/screens/details/components/attraction_tab_items.dart';
 import 'package:flutter/material.dart';
 import '../../constants.dart';
 import 'components/attraction_photos.dart';

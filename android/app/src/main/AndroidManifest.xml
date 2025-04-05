@@ -2,12 +2,12 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:label="TravelGen AI Travel Planner"
+        android:label="TechFact Infographic"
         android:name="${applicationName}"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name="com.xufagroup.ai_travel_planner.MainActivity"
+            android:name="com.xufagroup.techfact_infographic.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"

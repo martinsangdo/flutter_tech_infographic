@@ -1,5 +1,5 @@
-import 'package:ai_travel_planner/screens/details/components/photo_item_card.dart';
-import 'package:ai_travel_planner/screens/photo_gallery_fullscreen.dart';
+import 'package:techfact_infographic/screens/details/components/photo_item_card.dart';
+import 'package:techfact_infographic/screens/photo_gallery_fullscreen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
