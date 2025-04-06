@@ -97,7 +97,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   void initState() {
       super.initState();
-    fetchMetadata();
+    //fetchMetadata();
+    move2HomePage();
   } 
 
   @override
