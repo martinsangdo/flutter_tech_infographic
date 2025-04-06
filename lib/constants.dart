@@ -141,7 +141,10 @@ const GET_THINGS_TODO = '14580/json/getCrossRecommendProduct';
 const GET_THINGS_2_EAT_N_VISIT = '23044/getDestinationPageInfo.json';
 const GET_GALLERY_ATTRACTION = '/19913/getTripPoiPhotoGallery'; //photos of 1 attraction
 //
-const SAMPLE_IMG_1 = 'https://media.licdn.com/dms/image/v2/D4D22AQH_3TchU4NQLg/feedshare-shrink_1280/B4DZXsdDoPG8As-/0/1743428795715?e=1746662400&v=beta&t=9PudD7lIv8MckMmtm2THmaYiTPZm-5MYW7yTXDWl9P4';
-const SAMPLE_IMG_2 = 'https://media.licdn.com/dms/image/v2/D4D22AQH7hYeY2uT-ZA/feedshare-shrink_1280/B4DZX8TMZfGwAk-/0/1743694645826?e=1746662400&v=beta&t=4CrrmXcgoemvwjJUfK8G8sb4_mKDCrCbmVbiJXnndCk';
+// const SAMPLE_IMG_1 = 'https://media.licdn.com/dms/image/v2/D4D22AQH_3TchU4NQLg/feedshare-shrink_1280/B4DZXsdDoPG8As-/0/1743428795715?e=1746662400&v=beta&t=9PudD7lIv8MckMmtm2THmaYiTPZm-5MYW7yTXDWl9P4';
+// const SAMPLE_IMG_2 = 'https://media.licdn.com/dms/image/v2/D4D22AQH7hYeY2uT-ZA/feedshare-shrink_1280/B4DZX8TMZfGwAk-/0/1743694645826?e=1746662400&v=beta&t=4CrrmXcgoemvwjJUfK8G8sb4_mKDCrCbmVbiJXnndCk';
+const SAMPLE_IMG_1 = 'https://images.pexels.com/photos/31008029/pexels-photo-31008029/free-photo-of-aerial-view-of-shibuya-crossing-at-night-in-tokyo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2';
+const SAMPLE_IMG_2 = 'https://images.pexels.com/photos/15107934/pexels-photo-15107934/free-photo-of-a-taxi-in-a-city.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load';
+
 //for debugging
 bool isDebug = true;  //todo remove this flag when releasing

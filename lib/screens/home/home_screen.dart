@@ -22,30 +22,9 @@ class _OnboardingScreenState extends State<HomeScreen> {
   //
   List<BasicImageCard> _items = [];
   int _currentPage = 1;
-  final int _itemsPerPage = 10;
+  final int _itemsPerPage = 3;
   //
   final ScrollController _scrollController = ScrollController();
-
-
-  final List<BasicImageCard> items = [
-    BasicImageCard(
-      imageUrl: SAMPLE_IMG_1,
-      caption: 'First Item',
-      dateTime: DateTime.now().subtract(Duration(hours: 2)),
-    ),
-    BasicImageCard(
-      imageUrl: SAMPLE_IMG_2,
-      caption: 'Second Item with a longer caption',
-      dateTime: DateTime.now().subtract(Duration(days: 1)),
-    ),
-    BasicImageCard(
-      imageUrl: 'https://via.placeholder.com/150/F44336/FFFFFF?Text=Image+3',
-      caption: 'Third',
-      dateTime: DateTime.now(),
-    ),
-    // Add more items as needed
-  ];
-
   //
   @override
   void initState() {
@@ -71,7 +50,7 @@ class _OnboardingScreenState extends State<HomeScreen> {
   }
 
   // Simulate loading more items from an API or data source
-  Future<void> _loadMoreItems() async {
+  _loadMoreItems() async {
     debugPrint('load more item ' + _currentPage.toString());
     if (_isLoading) return;
     setState(() {
@@ -82,20 +61,40 @@ class _OnboardingScreenState extends State<HomeScreen> {
     await Future.delayed(Duration(seconds: 1));
 
     // Generate a new batch of items
-    List<BasicImageCard> newItems = List.generate(
-      _itemsPerPage,
-      (index) => BasicImageCard(
+    // List<BasicImageCard> newItems = List.generate(
+    //   _itemsPerPage,
+    //   (index) => BasicImageCard(
+    //     imageUrl: SAMPLE_IMG_1,
+    //     caption: 'Item ${_currentPage * _itemsPerPage + index + 1}',
+    //     dateTime: DateTime.now().add(Duration(minutes: index)),
+    //   ),
+    // );
+    List<BasicImageCard> newItems = [
+      BasicImageCard(
         imageUrl: SAMPLE_IMG_1,
-        caption: 'Item ${_currentPage * _itemsPerPage + index + 1}',
-        dateTime: DateTime.now().add(Duration(minutes: index)),
+        caption: 'First Item',
+        dateTime: DateTime.now().subtract(Duration(hours: 2)),
       ),
-    );
+      BasicImageCard(
+        imageUrl: SAMPLE_IMG_2,
+        caption: 'Second Item with a longer caption',
+        dateTime: DateTime.now().subtract(Duration(days: 1)),
+      ),
+      BasicImageCard(
+        imageUrl: SAMPLE_IMG_1,
+        caption: 'Third',
+        dateTime: DateTime.now(),
+      ),
+      // Add more items as needed
+    ];
 
     setState(() {
       _items.addAll(newItems);
       _currentPage++;
       _isLoading = false;
     });
+    //
+    // throw Exception("_loadMoreItems");
   }
   //
   @override
@@ -113,6 +112,7 @@ class _OnboardingScreenState extends State<HomeScreen> {
           )
         )
       ),
+      backgroundColor: Colors.white, // Set the background color here
       body: Stack(
         children: [
           ListView.builder(
@@ -146,17 +146,12 @@ class _OnboardingScreenState extends State<HomeScreen> {
                           item.caption,
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
-                        SizedBox(height: 4.0),
-                        Text(
-                          '${item.dateTime.day}/${item.dateTime.month}/${item.dateTime.year} ${item.dateTime.hour}:${item.dateTime.minute}',
-                          style: TextStyle(color: Colors.grey),
-                        ),
                       ],
                     ),
                   ),
                 );
               } else if (_isLoading) {
-                return Padding(
+                return const Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Center(
                     child: CircularProgressIndicator(),
