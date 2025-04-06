@@ -17,7 +17,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _OnboardingScreenState extends State<HomeScreen> {
-  bool _isLoading = true;
+  bool _isLoading = false;
   //
   List<String> _homeSliderImages = [];
   Map<dynamic, dynamic> _topBannerInfo = {};
@@ -69,6 +69,7 @@ class _OnboardingScreenState extends State<HomeScreen> {
                   ),
                 ),
                 PercentageDisplay(duration: 100,),
+                
               ],
             ],
           ),
