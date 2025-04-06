@@ -1,7 +1,3 @@
-import 'package:techfact_infographic/screens/addToOrder/planner_form.dart';
-import 'package:techfact_infographic/screens/ai_screen.dart';
-import 'package:techfact_infographic/screens/details/attractions_details_screen.dart';
-import 'package:techfact_infographic/screens/details/city_details_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -24,16 +20,15 @@ class _EntryPointState extends State<EntryPoint> {
   // List of nav items
   final List<Map<String, dynamic>> _navitems = [
     {"icon": "assets/icons/home.svg", "title": "Home"},
-    {"icon": "assets/icons/search.svg", "title": "AI Planner"},
-    {"icon": "assets/icons/order.svg", "title": "AI Assistant"},
-    // {"icon": "assets/icons/profile.svg", "title": "Saved Plans"},
+    {"icon": "assets/icons/search.svg", "title": "Categories"},
+    {"icon": "assets/icons/order.svg", "title": "Bookmarks"},
   ];
 
 // Screens
   final List<Widget> _screens = [
     const HomeScreen(),
-    const PlannerFormScreen(),
-    const AiChatScreen(),
+    // const CategoryScreen(),
+    // const BookmarkScreen(),
   ];
 
   @override

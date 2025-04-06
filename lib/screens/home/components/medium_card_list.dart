@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../../components/cards/medium/info_medium_card.dart';
 import '../../../components/scalton/medium_card_scalton.dart';
 import '../../../constants.dart';
-import '../../details/city_details_screen.dart';
 
 class MediumCardList extends StatefulWidget {
   List dataList =[];  //list of items to display
@@ -59,14 +58,7 @@ class _MediumCardListState extends State<MediumCardList> {
                         name: _dataList[index]['name'],
                         location: _dataList[index]['country'],
                         reviewCount: formatNumberWithCommas(_dataList[index]['review']),
-                        press: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => CityDetailsScreen(cityInfo: _dataList[index], cityOptions: {}),
-                            ),
-                          );
-                        },
+                        press: ()=>{}
                       ),
                     ),
                   ),

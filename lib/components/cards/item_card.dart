@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:techfact_infographic/screens/details/attractions_details_screen.dart';
 import 'package:techfact_infographic/screens/photo_gallery_fullscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
